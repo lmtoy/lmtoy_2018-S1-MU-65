@@ -1,1 +1,6 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
+91657 bottom half       
+92266 offset field?
+92425 offset field?
+#
+

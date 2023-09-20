@@ -22,8 +22,8 @@ on['IRAS04166+2706'] = [ 85886, 85890, 85917, 85921, 85925, 85935, 85998,
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1['041149_294226']   = ""
-pars1['IRAS04166+2706']  = ""
+pars1['041149_294226']   = "dv=10 dw=10"
+pars1['IRAS04166+2706']  = "dv=10 dw=10"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
