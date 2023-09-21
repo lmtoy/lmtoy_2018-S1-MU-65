@@ -27,8 +27,8 @@ pars1['IRAS04166+2706']  = "dv=10 dw=10"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
-pars2['041149_294226']   = "srdp=1 admit=0"
-pars2['IRAS04166+2706']  = "srdp=1 admit=0"
+pars2['041149_294226']   = "srdp=1 admit=0 birdies=4084,4096,4108"
+pars2['IRAS04166+2706']  = "srdp=1 admit=0 birdies=4084,4096,4108"
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, sys.argv)
