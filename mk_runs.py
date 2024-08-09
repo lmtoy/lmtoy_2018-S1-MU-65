@@ -23,12 +23,12 @@ on['IRAS04166+2706'] = [ 85886, 85890, 85917, 85921, 85925, 85935, 85998,
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1['041149_294226']   = "dv=10 dw=10"
-pars1['IRAS04166+2706']  = "dv=10 dw=10"
+pars1['IRAS04166+2706']  = "dv=10 dw=20"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
-pars2['041149_294226']   = "srdp=1 admit=0 birdies=4084,4096,4108"
-pars2['IRAS04166+2706']  = "srdp=1 admit=0 birdies=4084,4096,4108"
+pars2['041149_294226']   = "birdies=4084,4096,4108"
+pars2['IRAS04166+2706']  = "birdies=4084,4096,4108"
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, sys.argv)
